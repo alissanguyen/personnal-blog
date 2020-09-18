@@ -1,15 +1,25 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <div className="top-nav">
-        <img id="header-background" src="https://i.pinimg.com/originals/b8/8e/59/b88e5919775afd0de88efa8ebcaf1250.png" alt=""></img>
-        <header className="welcome">Hi, welcome to my blog :)</header>
+        <div className="header-background">
+          <header className="welcome">Hi, welcome to my blog :)</header>
+        </div>
+      </div>
+      <div className="blog-content">
+      <ul className="individual-blog"></ul>
+      <ul className="individual-blog"></ul>
+      <ul className="individual-blog"></ul>
+      <ul className="individual-blog"></ul>
+      <ul className="individual-blog"></ul>
+      <ul className="individual-blog"></ul>
       </div>
     </div>
   );
 }
+
 
 export default App;

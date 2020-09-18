@@ -6,12 +6,13 @@ function App() {
     <div className="App">
       <div className="top-nav">
         <div className="top-top-nav">
-          <button className="button">Home</button>
-          <button className="button">Contact</button>
+          <button className="button" id="home">Home</button>
+          <button className="button" id ="about-me">About Me</button>
+          <button className="button" id="my-journey">My Journey</button>
           <button className="button" id="github-spotter">GitHub Spotter</button>
           <button className="button" id="aufgaben">Aufgaben</button>
           <button className="button" id="github-profile">My GitHub</button>
-          <button className="button" id="my-journey">My Journey</button>
+          <button className="button" id="contact">Contact</button>
         </div>
         <div className="header-background">
           <header className="welcome">Hi, welcome to my blog :)</header>

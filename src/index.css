@@ -8,6 +8,10 @@ body {
   color: #F0F0F0;
 }
 
+.home-button {
+  background: none;
+}
+
 code {
   font-family: "Lato", sans-serif;
 }

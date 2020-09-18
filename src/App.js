@@ -5,6 +5,9 @@ function App() {
   return (
     <div className="App">
       <div className="top-nav">
+        <div className="top-top-nav">
+          <button className="home-button">Home</button>
+        </div>
         <div className="header-background">
           <header className="welcome">Hi, welcome to my blog :)</header>
         </div>

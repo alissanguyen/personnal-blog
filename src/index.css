@@ -9,7 +9,27 @@ body {
 }
 
 .home-button {
+  padding: 0.5em 1.2em;
+  border: 0.1em solid white;
+  margin: 0 0.5em 0.5em 0;
+  border-radius: 0.8em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+  transition: all 0.2s;
   background: none;
+  display: flex;
+  flex-direction: left;
+  margin: 30px 50px;
+}
+  
+.home-button:hover {
+  color: black;
+  background-color: white;
 }
 
 code {
